@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.agregarNuevaTarea {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.agregarNuevaTarea input {
+    width: 70%;
+    padding: 5px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.agregarNuevaTarea button {
+    width: 25%;
+    padding: 5px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.lista {
+    list-style: none;
+}
+
+.tareita {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.tareita input[type='checkbox'] {
+    margin-right: 10px;
+}
+
+.tareita .tachito {
+    background: none;
+    border: none;
+    cursor: pointer;
+    justify-content: right;
+    align-items: right;
+}
